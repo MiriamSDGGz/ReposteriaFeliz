@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
 body{
     background-image: url(imagenes/fondo2.jpg);
+    max-width: 100%;
 }
 header{ 
     background-color: rgb(125, 219, 188);
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,7 +63,7 @@ h3{
 }
 li{
     font-size: 20px;
-    color: rgb(247, 243, 243);
+    color: rgb(99, 92, 92);
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -69,7 +71,7 @@ li{
 .main{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    max-width: 100%;
     background-color: rgba(127, 255, 212, 0.685);
     margin: 15px 0 15px 0;
 }
@@ -97,4 +99,7 @@ li{
     display: flex;
     margin: 0 auto;
     width: 600px;
+}
+.row {
+    width: 100%;
 }
